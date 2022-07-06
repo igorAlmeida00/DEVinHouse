@@ -16,3 +16,11 @@ h1{
 p{
   font-size: 14px;
 }
+
+a img{
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 40px;
+  border-radius: 20px;
+}
