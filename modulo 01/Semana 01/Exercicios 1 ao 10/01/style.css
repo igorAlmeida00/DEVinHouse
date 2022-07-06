@@ -19,9 +19,18 @@ ol{
   gap: 80px;
 }
 
+li{
+  list-style-type: none
+}
+
 a{
   text-decoration: none;
   color: #fff;
+  transition: all 300ms;
+}
+
+a:hover{
+  color: rgb(131, 117, 117);
 }
 
 nav img{
