@@ -9,6 +9,9 @@ background: #693838;
 }
 
 h1{
+  background-image: url(../01/img/janela.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-size: 20px;
   font-weight: 700;
 }
