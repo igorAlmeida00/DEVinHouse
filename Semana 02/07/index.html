@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 07</title>
+</head>
+<body>
+  <script>
+    let contador = 0;
+    let resposta;
+    let quantidadePessoas = 0;
+
+    while(contador <= 4) {
+      resposta = prompt("O que achou da serie Stranger Things?");
+      switch(resposta){
+        case "ruim":
+          quantidadePessoas+=1;
+          break;
+        case "bom":
+          break;
+        case "excelente":
+          break;
+      }
+      contador++
+    }
+    console.log(quantidadePessoas);
+
+  </script>
+</body>
+</html>

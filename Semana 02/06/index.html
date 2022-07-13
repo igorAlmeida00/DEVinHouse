@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 06</title>
+</head>
+<body>
+  <script>
+    let altura = prompt("Informe a sua altura");
+    let peso = prompt("Informe o seu peso");
+    let imc = peso / (altura * altura);
+
+    if(imc >= 25) {
+      alert("Você está acima do peso, procure um medico!")
+    } else if(imc >= 18.5){
+      alert("PARABÉNS!! Você está no peso ideal")
+    } else{
+      alert("Você está abaixo do peso, procure um médico!")
+    }
+  </script>
+  
+</body>
+</html>
