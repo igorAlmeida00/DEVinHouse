@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 09</title>
+</head>
+<body>
+  <script>
+    let item = ['Hortifruti', 'Laticíneos','Carnes','Peixes','Aves', ''];
+    let quntidade = ['0','0','0','0','0'];
+    let fecharPedido = false, opcoes = '';
+
+    do {
+      opcoes = prompt(`Informe o numero do item que deseja: \n
+      1 - Hortifruti   2 - Laticínios   3 - Carnes 
+      4 - Peixes       5 - Aves           6 - Fechar Pedido`);
+
+      if (opcoes != '1' && opcoes != '2' && opcoes != '3' && opcoes != '4' && opcoes != '5' && opcoes != '6'){
+        alert("Por favor escolha apenas números entre 1 e 6.")
+        opcoes = '';
+      }else{
+        switch (opcoes) {
+          case '1':
+            quntidade[0] = prompt("Quantos itens você gostaria de comprar de " +item[opcoes]);
+            break;
+          case '2':
+            quntidade[1] = prompt("Quantos itens você gostaria de comprar de " +item[opcoes]);
+            break;
+          case '3':
+            quntidade[2] = prompt("Quantos itens você gostaria de comprar de " +item[opcoes]);
+            break;
+          case '4':
+            quntidade[3] = prompt("Quantos itens você gostaria de comprar de " +item[opcoes]);
+            break;
+          case '5':
+            quntidade[4] = prompt("Quantos itens você gostaria de comprar de " +item[opcoes]);
+            break;  
+          case '6':
+              alert(`LISTA DE COMPRAS:\n\nItens Hortifruti ${quntidade[0]}\nItens Laticínios ${quntidade[1]}\nItens Carnes ${quntidade[2]}\nItens Peixes ${quntidade[3]}\nItens Aves ${quntidade[4]}`)   
+        }                       
+      }  
+    }
+    while (fecharPedido == false);
+  </script>
+</body>
+</html>
