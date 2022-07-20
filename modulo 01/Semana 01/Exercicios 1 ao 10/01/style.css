@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+  background: #693838;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
+
+ol{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+li{
+  list-style-type: none
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 300ms;
+}
+
+a:hover{
+  color: rgb(131, 117, 117);
+}
+
+nav img{
+  max-width: 5%;
+  margin-right: 100px;
+}
+
+h1{
+  background-image: url(../01/img/janela.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 14px;
+}
+
+a img{
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 40px;
+  border-radius: 20px;
+}
+
+footer{
+  background: #1a0c0c;
+  height: 150px;
+  margin-top: 100px;
+}
+
+footer p{
+  margin-top: 50px;
+}
