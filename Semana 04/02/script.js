@@ -3,13 +3,13 @@ anoDeLancamento e diretor. Fora do escopo dessa classe,
 instancie ela e preencha os campos acessando seus 
 atributos por meio do ponto (.).*/
 
-class movie{
+class Movie{
   nome;
   anoDeLancamento;
   diretor;
 }
 
-const filme = new movie();
+const filme = new Movie();
 filme.nome = "Blade Runner";
 filme.anoDeLancamento = 1982;
 filme.diretor = "Ridley Scott";
